@@ -1,0 +1,24 @@
+{
+  "name": "sf-pm2-syslog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elad-sf/sf-pm2-syslog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elad-sf/sf-pm2-syslog/issues"
+  },
+  "homepage": "https://github.com/elad-sf/sf-pm2-syslog#readme",
+  "dependencies": {
+    "ain2": "^3.0.0",
+    "pm2": "^4.5.6"
+  }
+}
