@@ -1,6 +1,6 @@
 {
-  "name": "sf-pm2-syslog",
-  "version": "1.0.2",
+  "name": "pm2-syslog-external",
+  "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elad-sf/sf-pm2-syslog.git"
+    "url": "git+https://github.com/elad-sf/pm2-syslog-external.git"
   },
   "keywords": [],
   "author": "Elad Mizrahi",
   "license": "MIT",
   "apps": [
     {
-      "name": "sf-pm2-syslog",
+      "name": "pm2-syslog-external",
       "script": "app.js"
     }
   ],
   "bugs": {
-    "url": "https://github.com/elad-sf/sf-pm2-syslog/issues"
+    "url": "https://github.com/elad-sf/pm2-syslog-external/issues"
   },
-  "homepage": "https://github.com/elad-sf/sf-pm2-syslog#readme",
+  "homepage": "https://github.com/elad-sf/pm2-syslog-external#readme",
   "dependencies": {
     "ain2": "^3.0.0",
     "pm2": "^4.5.6"
