@@ -2,7 +2,7 @@
   "name": "sf-pm2-syslog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "apps": [
+    {
+      "name": "sf-pm2-syslog",
+      "script": "app.js"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/elad-sf/sf-pm2-syslog/issues"
   },
